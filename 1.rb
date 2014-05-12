@@ -5,7 +5,6 @@ for i in 1..999
     values.push(i)
   end
 end
-values.uniq!
 values.each {|numba| sum+=numba}
 puts sum
 
